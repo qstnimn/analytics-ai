@@ -201,18 +201,12 @@ Contributions are welcome! Please:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 - Built with [Streamlit](https://streamlit.io/)
 - AI powered by [Google Gemini](https://deepmind.google/technologies/gemini/) / [Groq](https://groq.com/)
 - Visualizations by [Plotly](https://plotly.com/)
 - Database: [ContosoRetailDW Sample](https://www.microsoft.com/en-us/download/details.aspx?id=18279)
-
-## 📧 Support
 
 For issues and questions:
 - Open an issue on GitHub
