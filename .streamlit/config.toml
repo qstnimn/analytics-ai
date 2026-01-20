@@ -1,0 +1,42 @@
+# Streamlit Configuration for Production Deployment
+
+[server]
+# Server settings
+port = 8501
+headless = true
+# enableCORS = false  # Commented out - conflicts with XSRF protection
+enableXsrfProtection = true
+
+# Performance settings
+maxUploadSize = 200
+maxMessageSize = 200
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[logger]
+# Logging level
+level = "info"
+
+[client]
+# Client settings
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[theme]
+# Custom theme (optional)
+primaryColor = "#0066cc"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[runner]
+# Script runner settings
+magicEnabled = true
+fastReruns = true
+
+# Performance optimization (maxCachedEntries removed in newer Streamlit versions)

@@ -1,0 +1,75 @@
+# ========================================
+# Analytics AI - Git Ignore File
+# ========================================
+
+# ----------------------------------------
+# Security & Secrets (CRITICAL!)
+# ----------------------------------------
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+service-account-key.json
+**/service-account*.json
+secrets.toml
+.streamlit/secrets.toml
+
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# ----------------------------------------
+# Virtual Environments
+# ----------------------------------------
+venv/
+.venv/
+ENV/
+env/
+
+# ----------------------------------------
+# IDE & Editors
+# ----------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Cache & Runtime Files
+# ----------------------------------------
+cache/
+*.cache
+
+# ----------------------------------------
+# Database & Schema Files (regeneratable)
+# ----------------------------------------
+crdw_schema_metadata.json
+dw_schema_metadata.json
+
+# ----------------------------------------
+# Generated Reports
+# ----------------------------------------
+*.html
+*.csv
+*.xlsx
+*.pdf
+
+# ----------------------------------------
+# Jupyter Notebooks
+# ----------------------------------------
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# Project Specific - Exclude unrelated folders
+# ----------------------------------------
+my-sam/

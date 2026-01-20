@@ -1,0 +1,14 @@
+dash
+dash-bootstrap-components
+groq
+google-genai
+google-cloud-firestore
+pyodbc
+pandas
+plotly
+python-dotenv
+diskcache
+multiprocess
+streamlit
+kaleido
+reportlab
