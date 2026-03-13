@@ -31,7 +31,7 @@ An AI-powered data analytics platform that uses natural language to query, analy
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/analytics-ai.git
+git clone https://github.com/qstnimn/analytics-ai/tree/main
 cd analytics-ai
 ```
 
